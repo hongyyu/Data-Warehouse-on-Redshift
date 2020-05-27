@@ -154,6 +154,9 @@ songplay_table_insert = ("""
     LEFT JOIN staging_songs as ss
     ON se.song = ss.title and se.artist = ss.artist_name
     WHERE se.page = 'NextSong'
+    AND user_id is not NULL
+    AND song_id is not NULL
+    AND artist_id is not NULL
 """)
 
 user_table_insert = ("""
