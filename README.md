@@ -34,7 +34,8 @@ table and four dimension tables) showing below:
 - Direct to the correct location where this Data Warehouse Project saved in the terminal
 with command like `cd`
 - Update the configure file dwh.cfg with correct setting of your AWS Redshift cluster.
-If you open configure file, you would find `CLUSTER`, `IAM_ROLE`, and `AWS` need to be fill in.
+If you open configure file, you would find `CLUSTER`, `IAM_ROLE`, and `AWS` need to be fill in. The
+`AWS` and `DWH` fields is only used for creating redshift in the Jupyter Notebook (IaC).
 - Run `Python create_table.py` in the terminal and check status.
 - Run `Python etl.py` in the terminal and check status.
 - After steps above, it is time to do any data analysis parts.
