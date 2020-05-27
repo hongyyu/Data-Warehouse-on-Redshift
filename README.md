@@ -20,8 +20,8 @@ table and four dimension tables) showing below:
 ### Fact Table
     - songplays
         * songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
-### Dimension Talbes
-    - user
+### Dimension Tables
+    - users
         * user_id, first_name, last_name, gender, level
     - songs
         * song_id, title, artist_id, year, duration
